@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: green;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+}
+.alert {
+border-radius: 4px;
+    font-size: 100%;
+    line-height: 20px;
+}
+
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;	
+}
+.alert-danger {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+.alert-success {
+    color: white;
+    background-color: #4CAF50;
+    border-color: #eed3d7;
+}
+.alert-info {
+    color: white;
+    background-color: grey;
+    border-color: #eed3d7;
+}
+input[type=text],input[type=tel],input[type=date],input[type=time],input[type=password],input[type=number],input[type=email],select,textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.myform {
+    position:relative;
+    background-color: #f2f2f2;
+	padding-left:10%;
+	padding-right:10%;
+}
+.begin {
+position:relative;margin-top:2%;margin-left:15%;height:550px;border 1px solid #cc;background-color:white;
+	overflow:auto;border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+table#customers {
+    font-size:16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2}
+
+#customers th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    color: white;
+}
+.tabletest {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.tabletest,
+.tabletest th,
+.tabletest td {
+  padding: 8px;
+  text-align: left;
+}
+
+.tabletest2 {
+  font-size:15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabletest2,
+.tabletest2 th,
+.tabletest2 td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabletest3 {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.tabletest3,
+.tabletest3 th,
+.tabletest3 td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabletest4 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabletest4,
+.tabletest4 th,
+.tabletest4 td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabletest4 tr:hover {
+  background-color: #f5f5f5
+}
+
+.tabler2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.tabler2,
+.tabler2 th,
+.tabler2 td {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+
+.tabler2 tbody tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.tabler {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.tabler,
+.tabler th,
+.tabler td {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+
+.tabler tbody tr:nth-child(even) {
+  background-color: #f2f2f2
+}
